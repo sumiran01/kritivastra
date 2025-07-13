@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kriti Vastra - Handloom Sarees</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- Inside <head> -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv0iHOXJBiEwrLlGggQE_dgfbrGm8s1Bk&callback=initMap">
+  </script>
+</head>
+
+<body class="font-sans text-gray-800">
+  <nav class="bg-white shadow-md sticky top-0 z-50 nav position-absolute">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="text-2xl font-bold text-gray-800">
+      KRITI VASTRA
+    </div>
+    <div class="space-x-6 text-sm font-medium text-gray-600">
+      <a href="#hero" class="hover:text-gray-900">Home</a>
+      <a href="#legacy" class="hover:text-gray-900">Legacy</a>
+      <a href="#sarees" class="hover:text-gray-900">Sarees</a>
+      <a href="#weavers" class="hover:text-gray-900">Weavers</a>
+      <a href="#calendar" class="hover:text-gray-900">Cultural Calendar</a>
+      <a href="#contact" class="hover:text-gray-900">Contact</a>
+    </div>
+  </div>
+</nav>
+  <!-- Hero Section -->
+  <section class="relative h-screen hero">
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-md">
+      Discover the Legacy of Indian Handloom
+    </h1>
+    <p class="text-base md:text-xl mb-6 max-w-xl drop-shadow-sm">
+      Kriti Vastra brings you sarees woven with history, heritage, and the heart of India.
+    </p>
+    <a href="./product.html" class="bg-red-600 hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold shadow-md">
+      Explore Collection
+    </a>
+  </div>
+</section>
+
+<!-- Legacy Section -->
+  <section class="px-8 py-16 bg-white legacy">
+    <h2 class="text-3xl font-bold mb-2">Woven with Legacy Draped in Soul</h2>
+    <p class="text-lg mb-6">हर धागा एक विरासत है, हर साड़ी एक कहानी।</p>
+    <p class="mb-6 max-w-3xl">For centuries, the looms of India have sung stories — of grandmothers weaving dreams into cotton threads, of mothers draping traditions onto their daughters, of artisans whose fingers carry the memory of generations.
+
+Kriti Vastra is not just a handloom store. It is a tribute to the soul of Indian textiles. From the ghats of Varanasi to the looms of Kanchipuram, from Bengal’s soft mul cotton to Gujarat’s bold bandhej, we celebrate the artistry, emotion, and ancestral devotion behind every weave.
+
+Every sari we offer is not just an attire — it is a heritage draped in six yards. A thread between the past and present. A rhythm of rituals, rain songs, and radiant festivities.
+We invite you to not just wear a sari, but to live a legacy.
+</p>
+    <div class="flex flex-col lg:flex-row gap-8">
+      <div class="lg:w-1/2">
+        <h2 class="text-2xl font-bold mb-4">🧵 Crafted Across India</h2>
+        <iframe class="w-full h-64 rounded" src="https://www.youtube.com/embed/your-video-id" frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+      <div id="map" class="w-full h-[500px] rounded-lg shadow-md z-0 ">
+      </div>
+    </div>
+  </section>
+   <!-- Our Sarees -->
+  <section class="px-8 py-16 bg-gray-50">
+    <h2 class="text-3xl font-bold mb-8">Our Sarees</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <img src="./IMAGES/red+banarasi.jpg" alt="Banarasi Blush" class="rounded">
+      <img src="./IMAGES/KanjivaramSilkSaree1.jpg" alt="Kanjeevaram Gold" class="rounded">
+      <img src="./IMAGES/cotton.jpg" alt="Elegant Saree" class="rounded">
+    </div>
+  </section> <!-- Cultural Calendar -->
+  <section class="px-8 py-16 bg-white">
+    <h2 class="text-3xl font-bold mb-4">Cultural Calendar</h2>
+    <p class="mb-6">Celebrate with us throughout the year with special edition sarees during Diwali, Rath Yatra, and
+      more.</p>
+    <img src="calendar.jpg" alt="Cultural Calendar" class="rounded">
+  </section> <!-- Meet the Weavers -->
+  <section class="px-8 py-16 bg-gray-50">
+    <h2 class="text-3xl font-bold mb-4">Meet the Weavers</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="text-center">
+        <img src="weaver1.jpg" alt="Weaver 1" class="rounded mb-2">
+        <p>Master artisan from Varanasi</p>
+      </div>
+      <div class="text-center">
+        <img src="weaver2.jpg" alt="Weaver 2" class="rounded mb-2">
+        <p>Gold thread expert from Kanchipuram</p>
+      </div>
+      <div class="text-center">
+        <img src="weaver3.jpg" alt="Weaver 3" class="rounded mb-2">
+        <p>Silk dyeing artist from Bengal</p>
+      </div>
+    </div>
+  </section> <!-- Testimonials -->
+  <section class="px-8 py-16 bg-white">
+    <h2 class="text-3xl font-bold mb-8 text-center">Customer Love</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-4 bg-gray-100 rounded">
+        <p>"Absolutely stunning saree. The craftsmanship is unmatched!"</p>
+        <p class="mt-2 text-sm text-gray-600">– Radhika S.</p>
+      </div>
+      <div class="p-4 bg-gray-100 rounded">
+        <p>"Wore it on Diwali and got endless compliments. Thank you!"</p>
+        <p class="mt-2 text-sm text-gray-600">– Meera P.</p>
+      </div>
+      <div class="p-4 bg-gray-100 rounded">
+        <p>"Love how the fabric feels. Truly elegant and regal."</p>
+        <p class="mt-2 text-sm text-gray-600">– Ananya R.</p>
+      </div>
+    </div>
+  </section> <!-- Contact / Customer Love -->
+  <section class="px-8 py-16 bg-gray-50">
+    <h2 class="text-2xl font-semibold mb-4 text-center">Be the first to know when a new weave arrives.</h2>
+    <div class="max-w-md mx-auto">
+      <input type="email" placeholder="Your email address" class="w-full p-3 border border-gray-300 rounded mb-4">
+      <button class="w-full bg-gray-800 text-white py-3 rounded">Sign Up</button>
+    </div>
+  </section>
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 Kriti Vastra. All rights reserved.</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cultural Calendar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <h1>🧶 Cultural Calendar</h1>
+  </header> 
+  <!-- Section 1: Sliding Carousel -->
+ <section class="carousel-wrapper">
+  <div class="section-title">✨ Discover the Drops</div>
+
+  <div class="carousel-controls">
+    <button id="prevBtn">←</button>
+    <button id="nextBtn">→</button>
+  </div>
+
+  <div class="carousel-track-wrapper">
+    <div class="carousel-track" id="festivalCarousel">
+      <div class="festival-card">
+        <div class="card-text">
+          <h3>तीज (Teej)</h3>
+          <p><strong>Drop:</strong> Sita’s Red</p>
+          <p><strong>Time:</strong> August 2025</p>
+          <p><strong>About:</strong> A day of longing, sindoor, and soulful devotion.</p>
+          <p><strong>Style Tip:</strong> Wear light Jamdani in vibrant red.</p>
+          <button>View Drop</button>
+        </div>
+        <div class="card-image">
+          <img src="./IMAGES/flowing-mint-silk-stockcake.jpg" alt="Teej Saree Drop">
+        </div>
+      </div>
+      <div class="festival-card">
+        <div class="card-text">
+          <h3>तीज (Teej)</h3>
+          <p><strong>Drop:</strong> Sita’s Red</p>
+          <p><strong>Time:</strong> August 2025</p>
+          <p><strong>About:</strong> A day of longing, sindoor, and soulful devotion.</p>
+          <p><strong>Style Tip:</strong> Wear light Jamdani in vibrant red.</p>
+          <button>View Drop</button>
+        </div>
+        <div class="card-image">
+          <img src="./IMAGES/flowing-mint-silk-stockcake.jpg" alt="Teej Saree Drop">
+        </div>
+      </div>
+
+      <!-- Add more cards here -->
+    </div>
+  </div>
+</section> <!-- Section 2: Output Suggestions -->
+  <section class="output-suggestions">
+    <div class="section-title">👗 Outfit Suggestions</div>
+    <div class="tiles">
+      <div class="tile">
+        <h4>Karwa Chauth<br>Sindoor Edit</h4>
+        <p>Wear a silk brocade with jadau jewelry.</p>
+      </div>
+      <div class="tile">
+        <img src="https://via.placeholder.com/200x250" alt="Outfit Image">
+      </div>
+      <div class="tile">
+        <h4>Teej<br>Jamdani Softness</h4>
+        <p>Pick light Jamdani with a gajra bun.</p>
+      </div>
+      <div class="tile">
+        <h4>Diwali<br>Gehna Red</h4>
+        <img src="https://via.placeholder.com/200x250" alt="Outfit Image">
+      </div>
+    </div>
+  </section> <!-- Section 3: Wedding Edit -->
+  <section class="wedding-edit">
+    <div class="section-title">💍 The Wedding Edit</div>
+    <div class="tiles">
+      <div class="tile">
+        <img src="https://via.placeholder.com/250x300" alt="Haldi Look">
+        <p>Haldi – Gota Sunshine</p>
+      </div>
+      <div class="tile">
+        <img src="https://via.placeholder.com/250x300" alt="Mehendi Look">
+        <p>Mehendi – Morni</p>
+      </div>
+      <div class="tile">
+        <img src="https://via.placeholder.com/250x300" alt="Sangeet Look">
+        <p>Sangeet – Golden Veil</p>
+      </div>
+    </div>
+  </section> <!-- Section 4: Fade-in Carousel -->
+  <section class="customer-stories">
+    <div class="section-title">🧵 Stories Woven in Threads</div>
+    <div class="stories-carousel">
+      <div class="story active">
+        <img src="./IMAGES/flowing-mint-silk-stockcake.jpg" alt="Customer 1">
+        <p>"Worn by Meera during her Haldi."</p>
+      </div>
+      <div class="story">
+        <img src="./IMAGES/flowing-mint-silk-stockcake.jpg" alt="Customer 2">
+        <p>"Neha’s Navratri moment in Bhagalpur silk."</p>
+      </div>
+      <div class="story">
+        <img src="https://via.placeholder.com/150x100" alt="Customer 3">
+        <p>"Riya’s Reception look in Gehna Red."</p>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button id="storyPrev">←</button>
+      <button id="storyNext">→</button>
+    </div>
+  </section>   <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
